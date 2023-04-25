@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+.list span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=Setting.module.css.map */

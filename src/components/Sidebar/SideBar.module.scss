@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 20px;
+  height: calc(100vh - 120px);
+
+  border-radius: 8px;
+  align-items: flex-start;
+  span {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  span.active {
+    background-color: #95f3ea4c;
+    border-radius: 999px;
+    color: #0aefd8;
+    font-weight: bold;
+  }
+}
+
+.badge {
+  background-color: red;
+  border-radius: 999px;
+  padding: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px !important;
+  color: white;
+  margin-left: 10px;
+}

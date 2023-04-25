@@ -1,0 +1,53 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: left 30%;
+  background-image: url("https://github.com/sefyudem/Responsive-Login-Form/blob/master/img/wave.png?raw=true");
+}
+.wrapper .left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .right form {
+  width: 300px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wrapper .right form .list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper .right form .btn-login {
+  margin-top: 20px;
+  padding: 10px 60px;
+  border-radius: 999px;
+  background-color: #34c595;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.wrapper .right form .btn-login:hover {
+  filter: brightness(110%);
+}/*# sourceMappingURL=Login.module.css.map */

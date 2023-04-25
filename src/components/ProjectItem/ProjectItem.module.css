@@ -1,0 +1,96 @@
+.wrapper {
+  width: 100%;
+  cursor: pointer;
+  border: 1px transparent solid;
+  padding: 20px;
+  border-radius: 8px;
+}
+.wrapper:hover {
+  border-color: rgba(114, 111, 111, 0.598);
+}
+.wrapper .show {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.wrapper .show img {
+  width: 50%;
+  height: 220px;
+  border-radius: 8px;
+}
+.wrapper .show .info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 50%;
+  gap: 20px;
+}
+.wrapper .show .info .b {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.wrapper .show .info .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.wrapper .show .info .sub {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(212, 209, 204);
+}
+.wrapper .show .info .technology {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+}
+.modal .block {
+  display: flex;
+  gap: 20px;
+}
+.modal .block img {
+  height: 240px;
+  width: 50%;
+}
+.modal .block .b {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.modal .block .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.modal .block .sub {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(212, 209, 204);
+}
+.modal .block .technology {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.image-paser img {
+  width: 100%;
+}
+.image-paser li {
+  list-style: none;
+}
+.image-paser h1,
+.image-paser h2,
+.image-paser h3,
+.image-paser h4,
+.image-paser h5,
+.image-paser h6 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}/*# sourceMappingURL=ProjectItem.module.css.map */
